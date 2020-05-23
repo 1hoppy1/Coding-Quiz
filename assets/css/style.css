@@ -38,7 +38,24 @@
   li {
     font-size: 1.6rem;
   }
-  
+  /* try this */
+
+  a {
+    color: black;
+    margin: 5px 0;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+/* try this */
+
+
+
+
+
+
+
+
   form {
     display: flex;
     align-items: flex-end;
@@ -133,9 +150,8 @@
 .banner {
     display: flex;
     justify-content: space-between;
+    padding: 5px 0 0 0;
 }
-
-
 
 
 
