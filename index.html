@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--Head Start-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +8,18 @@
     <title>Coding Quiz</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
+<!--Head End-->
+<!--Body Start-->
 <body>
+<!--Header Start-->
     <header>
         <h1 class="page-title">Coding Quiz</h1>
         <p>Let's see how smart you are!</p>
- <!--       <button class="btn">Start Quiz</button> -->
-
     </header>
-    
-        
+<!--Header Start-->
     <main class="page-content">
-
         <section class="task-list-wrapper">
-
-          
+<!--High Score and Timer HTML-->         
             <div class="banner">
                 <div>
                     <a href="high-score">View high scores</a>
@@ -31,24 +28,33 @@
                     <a> Timer: <span id="count"></span></a>
                 </div>
             </div>
+<!--High Score and Timer HTML-->
 
+                                                                    <!--       <button class="btn">Start Quiz</button> -->
 
-          <h2 class="list-title">Question Placeholder</h2>
-          <ul class="task-list">
-            <li class="task-item">Answers Placeholder</li>
-            <li class="task-item">Answers Placeholder</li>
-            <li class="task-item">Answers Placeholder</li>
-            <li class="task-item">Answers Placeholder</li>
-            <li class="task-response">"Correct or Incorrect"</li>
-          </ul>
+<!--HTML that I want to adjust with JS Start-->
+            <change class="html-change">
+                <h2 class="list-title">Question Placeholder</h2>
+                <ul class="task-list">
+                    <li id="ans1" class="task-item">Answers Placeholder</li>
+                    <li id="ans2" class="task-item">Answers Placeholder</li>
+                    <li id="ans3" class="task-item">Answers Placeholder</li>
+                    <li id="ans4" class="task-item">Answers Placeholder</li>
+                    <li id="response" class="task-response">"Correct or Incorrect"</li>
+                </ul>
+            </change>
         </section>
     </main>
+<!--HTML that I want to adjust with JS Start-->
 
+<!--Footer Start-->
       <footer>
         &copy;2020 by Coding Quiz
       </footer>
-
-    
+<!--Footer End-->
+<!--Insert JS Reference Start-->
     <script src="./assets/js/script.js"></script>
+<!--Insert JS Reference End-->
 </body>
+<!--Body End-->
 </html>
